@@ -35,6 +35,8 @@ console.log(biglietto_over)
 let biglietto_over_decimali = biglietto_over.toFixed(2)
 console.log(biglietto_over_decimali)
 
+// Punto Bonus: visualizzazzione a schermo
+
 if(eta < 18){
     document.getElementById('prezzo').innerHTML = "Euro:" +  biglietto_minorenni_decimali
 }
@@ -48,6 +50,6 @@ else{
 
 
 
-// Punto 5 
+
 
 
