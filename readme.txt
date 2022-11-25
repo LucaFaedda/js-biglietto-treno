@@ -10,3 +10,4 @@ Il programma dovrà chiedere all'utente il numero di chilometri che vuole percor
 4 - applicare sconto se neccesario
   4a - se minorenne 20%
   4b - se over 65 40%
+5 - Visualizzare prezzo biglietto massimo due decimali
