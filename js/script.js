@@ -20,17 +20,21 @@ console.log(biglietto)
 // Punto quattro: sconto minorenni
 
 if(eta < 18){
-    biglietto_minorenni = biglietto * 20 / 100
-    console.log(biglietto_minorenni)
-    sconto_minorenni = biglietto - biglietto_minorenni
+    let sconto_minorenni = biglietto * 20 / 100
     console.log(sconto_minorenni)
+    let biglietto_minorenni = biglietto - sconto_minorenni
+    console.log(biglietto_minorenni)
+    let biglietto_minorenni_decimali = biglietto_minorenni.toFixed(2)
+    console.log(biglietto_minorenni_decimali)
 }
 
 if(eta > 65){
-    biglietto_over = biglietto * 40 / 100
-    console.log(biglietto_over)
-    sconto_over = biglietto - biglietto_over
+    let sconto_over = biglietto * 40 / 100
     console.log(sconto_over)
+    let biglietto_over = biglietto - sconto_over
+    console.log(biglietto_over)
+    let biglietto_over_decimali = biglietto_over.toFixed(2)
+    console.log(biglietto_over_decimali)
 }
 
 
