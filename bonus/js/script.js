@@ -37,16 +37,15 @@ console.log(biglietto_over_decimali)
 
 if(eta < 18){
     document.getElementById('prezzo').innerHTML = "Euro:" +  biglietto_minorenni_decimali
-}else{
-    document.getElementById('prezzo').innerHTML = "Euro:" +  biglietto
 }
-
-
-if(eta > 65){
+else if(eta > 65){
     document.getElementById('prezzo').innerHTML = "Euro:" +  biglietto_over_decimali
-}else{
+}
+else{
     document.getElementById('prezzo').innerHTML = "Euro:" +  biglietto
 }
+
+
 
 
 // Punto 5 
