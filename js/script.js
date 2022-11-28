@@ -17,8 +17,8 @@ let biglietto = km * 0.21
 
 console.log(biglietto)
 
-// Punto quattro/cinque: sconto minorenni con decimali +
-// Punto quattro/cinque: sconto over con decimali
+
+// Punto quattro: sconto minorenni con decimali 
 
 if(eta < 18){
     let sconto_minorenni = biglietto * 20 / 100
@@ -27,6 +27,8 @@ if(eta < 18){
     console.log(biglietto_minorenni) // Prezzo finale 
     let biglietto_minorenni_decimali = biglietto_minorenni.toFixed(2)
     console.log(biglietto_minorenni_decimali)}
+
+// Punto cinque: sconto over con decimali
 else if ( eta > 65){
     let sconto_over = biglietto * 40 / 100
     console.log(sconto_over) // Prezzo da sottrarre al biglietto
